@@ -67,6 +67,16 @@ console.log(typeof cat);
 // - “false” -string
 // - 56 - number
 
+// Write down what the following statements will return. Try to figure this out before putting the commands in the chrome console.
+
+// 2 == "2";
+// 2 === 2;
+// 10 % 3;
+// 10 % 3 === 1;
+// true && false;
+// false || true;
+// true || false;
+
 // Check how good you are at guessing the Boolean equivalent of different values using the
 // console. Do you remember how to check for a Boolean equivalent of a value?
 
