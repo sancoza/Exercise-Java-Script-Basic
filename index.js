@@ -185,15 +185,15 @@
 //   console.log('Svaka čast');
 // }
 
-satiUčenjaDnevno = prompt(Upiši broj kako bi video koliko dana učenje ti treba da postaneš početnik a koliko porfesionalac);
+satiUčenjaDnevno = prompt('Koliko časova dnevno u proseku učiš ?');
 
-početnik= 1000;
+početnik= 2000;
 profesionalc= 4000;
 
 daPostanešPočetnik = početnik / satiUčenjaDnevno;
 daPostanešProfesionalac = profesionalc / satiUčenjaDnevno;
 
-console.log(`Da bi postao početnik moraš da učiš ${daPostanešPočetnik} sati dnevno`);
-console.log(`Da postanerš profesionalac moraš da učiš ${daPostanešProfesionalac} sati dnevno`) ;
+console.log(`Potrebno je ${daPostanešPočetnik} dana učenja da bi postao početnik`);
+console.log(`Potrebno je ${daPostanešProfesionalac} dana učenja da bi postao profesionalac`) ;
 
 
