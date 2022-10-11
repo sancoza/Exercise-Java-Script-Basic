@@ -164,17 +164,36 @@
 
 //
 
-var driverSpeed = 30;
-var minspeedLimit =60;
-var maxspeedLimit =90;
+// var driverSpeed = 30;
+// var minspeedLimit =60;
+// var maxspeedLimit =90;
 
-if(driverSpeed < minspeedLimit || driverSpeed > maxspeedLimit ) {
-  console.log('Nezadovoljavajuća brzina - false')
-}else {
-  console.log('Bravo bravo voziš pravo -true')
-}
-driverSpeed();
+// if(driverSpeed < minspeedLimit || driverSpeed > maxspeedLimit ) {
+//   console.log('Nezadovoljavajuća brzina - false')
+// }else {
+//   console.log('Bravo bravo voziš pravo -true')
+// }
+// driverSpeed();
 
+// Napiši program koji prima satiUcenjaDnevno kao unos, i na osnovu toga izračunava i ispisuje koliko nam je dana učenja potrebno da bismo postali početnik, i koliko nam je dana potrebno da bismo postali ekspert.
 
+// var satiUcenjaDnevno= 8;
+
+// if( satiUcenjaDnevno < 8) {
+//   console.log('Nedovoljno si učio');
+// }else {
+//   console.log('Svaka čast');
+// }
+
+satiUčenjaDnevno = prompt(Upiši broj kako bi video koliko dana učenje ti treba da postaneš početnik a koliko porfesionalac);
+
+početnik= 1000;
+profesionalc= 4000;
+
+daPostanešPočetnik = početnik / satiUčenjaDnevno;
+daPostanešProfesionalac = profesionalc / satiUčenjaDnevno;
+
+console.log(`Da bi postao početnik moraš da učiš ${daPostanešPočetnik} sati dnevno`);
+console.log(`Da postanerš profesionalac moraš da učiš ${daPostanešProfesionalac} sati dnevno`) ;
 
 
