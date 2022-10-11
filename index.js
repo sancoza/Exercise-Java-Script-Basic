@@ -185,15 +185,23 @@
 //   console.log('Svaka čast');
 // }
 
-satiUčenjaDnevno = prompt('Koliko časova dnevno u proseku učiš ?');
+// satiUčenjaDnevno = prompt('Koliko časova dnevno u proseku učiš ?');
 
-početnik= 2000;
-profesionalc= 4000;
+// početnik= 2000;
+// profesionalc= 4000;
 
-daPostanešPočetnik = početnik / satiUčenjaDnevno;
-daPostanešProfesionalac = profesionalc / satiUčenjaDnevno;
+// daPostanešPočetnik = početnik / satiUčenjaDnevno;
+// daPostanešProfesionalac = profesionalc / satiUčenjaDnevno;
 
-console.log(`Potrebno je ${daPostanešPočetnik} dana učenja da bi postao početnik`);
-console.log(`Potrebno je ${daPostanešProfesionalac} dana učenja da bi postao profesionalac`) ;
+// console.log(`Potrebno je ${daPostanešPočetnik} dana učenja da bi postao početnik`);
+// console.log(`Potrebno je ${daPostanešProfesionalac} dana učenja da bi postao profesionalac`) ;
+
+// Pronađi ime “Ana” u sledećem tekstu: “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eaque, ducimus explicabo laborum incidunt ex dicta voluptatum nisi officiis voluptatibus provident quaerat dolorem ab, Ana veniam sapiente cum error quod ad.”
+
+// Ovo se može postići metodom indexOf, koja vraća index na kome se nalazi reč, ili -1 ukoliko nema tražene reči.
+
+// var ime = 'Ana';
+// var text ='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eaque, ducimus explicabo laborum incidunt ex dicta voluptatum nisi officiis voluptatibus provident quaerat dolorem ab, Ana veniam sapiente cum error quod ad.';
+// console.log(text.indexOf(ime));
 
 
