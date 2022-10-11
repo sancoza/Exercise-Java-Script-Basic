@@ -52,13 +52,13 @@
 // * Each variable has to start with a different type of character.
 // Print them all out in the console and check their types.
 
-var myname = 'Sandra';
-var age = 35;
-var cat = false;
+// var myname = 'Sandra';
+// var age = 35;
+// var cat = false;
 
-console.log(typeof myname);
-console.log(typeof age);
-console.log(typeof cat);
+// console.log(typeof myname);
+// console.log(typeof age);
+// console.log(typeof cat);
 
 // Check which type are these values:
 // - “number” -string
@@ -69,16 +69,63 @@ console.log(typeof cat);
 
 // Write down what the following statements will return. Try to figure this out before putting the commands in the chrome console.
 
-// 2 == "2";
-// 2 === 2;
-// 10 % 3;
-// 10 % 3 === 1;
-// true && false;
-// false || true;
-// true || false;
+// 2 == "2"; -true
+// 2 === 2; -true
+// 10 % 3; number 
+// 10 % 3 === 1; true (deljiv je sa jedan)
+// true && false; -false
+// false || true; -true
+// true || false; -true
+
 
 // Check how good you are at guessing the Boolean equivalent of different values using the
-// console. Do you remember how to check for a Boolean equivalent of a value?
+// // console. Do you remember how to check for a Boolean equivalent of a value?
+// console.log(typeof true); //  "boolean"
+// console.log(typeof false); //  "boolean"
+// console.log(typeof null); //  "object"
+// console.log(typeof []); //  "object"
+// console.log(typeof {}); //  "object"
+// console.log(typeof ''); //  "string"
+// console.log(typeof 0); //  "number"
+// console.log(true) // true
+// console.log(typeof true) // boolean
+// console.log(typeof true === "boolean") // true
 
+// console.log(false) // false
+// console.log(typeof false) // boolean
+// console.log(typeof false === "boolean") // true
 
+// // Truth values evaluate to true
+// console.log(typeof []) // object
+// console.log(Boolean([])) // true
+// console.log(typeof Boolean([])) // boolean
+
+// // Falsy values evaluate to false
+// console.log(typeof "") // string
+// console.log(Boolean("")) // false
+// console.log(typeof Boolean([])) // boolean
+
+// // falsy values: false, 0, -0, 0n, null, undefined, NaN, and the empty string ""
+// console.log(Boolean(false)) // false
+// console.log(Boolean(0)) // false
+// console.log(Boolean(-0)) // false
+// console.log(Boolean(0n)) // false
+// console.log(Boolean(null)) // false
+// console.log(Boolean(undefined)) // false
+// console.log(Boolean(NaN)) // false
+// console.log(Boolean("")) // false
+// console.log(typeof Boolean("")) // boolean
+
+// // truthy values: true, 1, -1, 1n, -1n, Infinity, -Infinity, " ", {}, []
+// console.log(Boolean(true)) // true
+// console.log(Boolean(1)) // true
+// console.log(Boolean(-1)) // true
+// console.log(Boolean(1n)) // true
+// console.log(Boolean(-1n)) // true
+// console.log(Boolean(Infinity)) // true
+// console.log(Boolean(-Infinity)) // true
+// console.log(Boolean(" ")) // true
+// console.log(Boolean({})) // true
+// console.log(Boolean([])) // true
+// console.log(typeof Boolean([])) // boolean
 
