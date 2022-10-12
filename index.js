@@ -337,33 +337,36 @@
 //   console.log('num2 is larger');
 // }
 
-// Task 6. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
-// Formula : F = (9*C/5) + 32  where c = temperature in Celsius and f = temperature in Fahrenheit ]
-// Sample Input: 60°C
-// Output : 60°C is 140 °F
+// // Task 6. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+// // Formula : F = (9*C/5) + 32  where c = temperature in Celsius and f = temperature in Fahrenheit ]
+// // Sample Input: 60°C
+// // Output : 60°C is 140 °F
 
-// function cToF(celsius) 
-// {
-//   const cTemp = celsius;
-//   const cToFahr = cTemp * 9 / 5 + 32;
-//   const message = `${cTemp}\xB0C is ${cToFahr} \xB0F.`;
-//     console.log(message);
-// }
+// var celsius = 60;
 
-// function fToC(fahrenheit) 
-// {
-//   const fTemp = fahrenheit;
-//   const fToCel = (fTemp - 32) * 5 / 9;
-//   const message = `${fTemp}\xB0F is ${fToCel}\xB0C.`;
-//     console.log(message);
-// } 
-// message();
+// var celsiusTofahrenheit = (9* celsius/5) + 32 ;
+
+// var fahrenheitTocelsius= (celsiusTofahrenheit -32) * 5 / 9;
+
+// console.log(celsiusTofahrenheit);
+// console.log(fahrenheitTocelsius);
+
+
 
 
 //   Task 7. Write a JavaScript program to get the difference between a given number and 13, if
 // the number is greater than 13 return double difference between that number and 13.
 // Sample Input: 11 Sample Input: 32
 // Output : 2 Output : 38
+
+
+var a = 11;
+var b = 32;
+var min = 13 - a;
+var max = (a - 13)*2;
+
+
+
 
 // function difference(n)
 //  {
