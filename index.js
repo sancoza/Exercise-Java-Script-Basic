@@ -395,15 +395,15 @@
 // Sample Input: 12,5 Sample Input: 8,8
 // Output : 17 Output : 48
 
-var a = 12.5;
-var b = 8.8;
-var sum = a + b;
+// // var a = 12.5;
+// // var b = 8.8;
+// // var sum = a + b;
 
-if(a === b) {
-  console.log(3 * sum);
-}else {
-  console.log(sum);
-}
+// // if(a === a) {
+// //   console.log(3 * sum);
+// // }else {
+// //   console.log(sum);
+// }
 
 
 // function sumTriple (x, y) {
@@ -422,8 +422,15 @@ if(a === b) {
 // Task 9. Write a JavaScript program to check two given numbers and print “true” if one of
 // the number is 50 or if their sum is 50.
 // Sample Input: 5,54 Sample Input: 6,50 Sample Input: 40,10
+// Output : - Output : true Output : true
 
+// a = 5.54;
+// b = 6.50;
+// c = 40.10;
 
+// if(a === 50) {
+//   console.log(true);
+// }
 
 
 // function test50(x, y) 
@@ -439,18 +446,29 @@ if(a === b) {
 
 // Output : - Output : true Output : true
 
-// Task 10. Write a JavaScript program to check a given integer is within 20 of 100 or 400,
-// and print range in which number belongs.
+// Task 10. Write a JavaScript program to check a given integer is within 20 of 100 or 400, and print range in which number belongs.
 // Sample Input: 13 Sample Input: 34 Sample Input: 256
 // Output : - Output : 20 ⇔ 100 Output : 100 ⇔ 400
 
-// function testhundred(x) {
-//   return ((Math.abs(100 - x) <= 20) ||
-// 	 (Math.abs(400 - x) <= 20));
+// a = 13;
+// b = 34;
+// c = 256;
+
+// if(20 >= a <= 100) {
+// console.log('-');
+// }else {
+//   console.log('20⇔ 100');
 // }
 
-// console.log(testhundred(10));
-// console.log(testhundred(90));
-// console.log(testhundred(99));
-// console.log(testhundred(199));
-// console.log(testhundred(200));
+// if(20 <=  b <= 100) {
+//   console.log('20⇔ 100')
+// }else {
+//   console.log('-');
+// }
+
+// if (20 <= c <= 100) {
+//   console.log('100 ⇔ 400');
+// } else {
+//   console.log('-');
+// }
+
