@@ -220,7 +220,7 @@
 // var z=2;
 // if (x>0 && y>0 && z>0)
 // {
-//        alert("The sign is +");
+//        comsole.log("The sign is +");
 // }
 // else if (x<0 && y<0 && z<0)
 //         {
@@ -238,6 +238,18 @@
 //         {
 //           console.log("The sign is -");
 //         }
+
+//         var a = 3;
+//         var b= -7;
+//         var c = 2;
+        
+//         var result = a*b*c;
+        
+//         if (result > 0 ) {
+//           console.log('result is positiv number +');
+//         }else {
+//         console.log('result is negativ number -');
+//         }      
 
 // Task 2. Write a conditional statement to find the largest of five numbers. Display the result in the console.
 // Sample numbers: -5, -2, -6, 0, -1
@@ -314,6 +326,7 @@
 // Output: 10 / 2 = 5 Output: X
 
 // var number = 10;
+// var number1=7;
 // var result = number / 2;
 
 
@@ -322,7 +335,11 @@
 // }else{
 //   console.log('X');
 // }
-
+// if(number1 % 2 === 0) {
+//   console.log(result);
+// }else{
+//   console.log('X');
+// }
 // console.log(typeof number);
 
 // Task 5. Write a program that compares two numbers and displays the larger. Display the result in
@@ -337,10 +354,10 @@
 //   console.log('num2 is larger');
 // }
 
-// // Task 6. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
-// // Formula : F = (9*C/5) + 32  where c = temperature in Celsius and f = temperature in Fahrenheit ]
-// // Sample Input: 60°C
-// // Output : 60°C is 140 °F
+// Task 6. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+// Formula : F = (9*C/5) + 32  where c = temperature in Celsius and f = temperature in Fahrenheit ]
+// Sample Input: 60°C
+// Output : 60°C is 140 °F
 
 // var celsius = 60;
 
