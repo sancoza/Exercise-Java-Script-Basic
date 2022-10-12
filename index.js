@@ -365,13 +365,47 @@
 // Sample Input: 11 Sample Input: 32
 // Output : 2 Output : 38
 
+// function difference(n)
+//  {
+//     if (n <= 13)
+//         return 13 - n;
+//     else
+//         return (n - 13) * 2;
+//  }
+// console.log(difference(32))
+// console.log(difference(11))
+
 // Task 8. Write a JavaScript program to compute the sum of the two given integers. If the two
 // values are same, then returns triple their sum.
 // Sample Input: 12,5 Sample Input: 8,8
 // Output : 17 Output : 48
+// function sumTriple (x, y) {
+//   if (x == y) {
+//     return 3 * (x + y);
+//     } 
+//    else
+//    {
+//     return (x + y);
+//    }
+//  }
+// console.log(sumTriple(10, 20));
+// console.log(sumTriple(10, 10));
+
+
 // Task 9. Write a JavaScript program to check two given numbers and print “true” if one of
 // the number is 50 or if their sum is 50.
 // Sample Input: 5,54 Sample Input: 6,50 Sample Input: 40,10
+
+// function test50(x, y) 
+// {
+//   return ((x == 50 || y == 50) || (x + y == 50));
+// }
+// console.log(test50(50, 50))
+// console.log(test50(20, 50))
+// console.log(test50(20, 20))
+// console.log(test50(20, 30))
+
+
 
 // Output : - Output : true Output : true
 
@@ -379,3 +413,14 @@
 // and print range in which number belongs.
 // Sample Input: 13 Sample Input: 34 Sample Input: 256
 // Output : - Output : 20 ⇔ 100 Output : 100 ⇔ 400
+
+// function testhundred(x) {
+//   return ((Math.abs(100 - x) <= 20) ||
+// 	 (Math.abs(400 - x) <= 20));
+// }
+
+// console.log(testhundred(10));
+// console.log(testhundred(90));
+// console.log(testhundred(99));
+// console.log(testhundred(199));
+// console.log(testhundred(200));
