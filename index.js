@@ -115,10 +115,16 @@
 // var a =15;
 // var b = 12;
 
-// if (a % 3 ===0 || a % 5 ===0) {
+// if (a % 3 === 0) {
 //   console.log(a);
-// }else if (b % 3 === 0 || b % 5 === 0) {
-//   console.log(b)
+// }else if (a % 5 === 0 {
+//   console.log(a);
+// }
+
+// if (b % 3 === 0) {
+//   console.log(b);
+// }else if (b % 5 === 0 {
+//   console.log(b);
 // }
 
 // 4.Write a conditional statement to find the sign of product of three numbers. Display the
@@ -157,3 +163,47 @@
 // 6.Write a conditional statement to find the largest of five numbers. Display the result in console.
 // Sample numbers: -5, -2, -6, 0, -1
 // Output: 0
+
+// a=-5;
+// b=-2;
+// c=-6;
+// d= 0;
+// f=-1;
+
+// if (a>b && a>c && a>d && a>f) {
+//   console.log(a);
+// }else if (b>a && b>c && b>d && b>f) {
+//   console.log(b);
+// }else if (c>a && c>b && c>d && c>f) {
+//   console.log(c);
+// }else if (d>a && d>b && d>c && d>f) {
+//   console.log(d);
+// }else {
+//   console.log(f);
+// }
+
+// 7.Write a conditional statement to sort three numbers. Sample numbers : 0, -1, 4
+// Output : 4, 0, -1
+
+// var x = 0;
+// var y = -1;
+// var z = 4;
+// if (x > y && x > z) {
+//   if (y > z) {
+//     console.log(x + ', ' + y + ', ' + z);
+//   } else {
+//     console.log(x + ', ' + z + ', ' + y);
+//   }
+// } else if (y > x && y > z) {
+//   if (x > z) {
+//     console.log(y + ', ' + x + ', ' + z);
+//   } else {
+//     console.log(y + ', ' + z + ', ' + x);
+//   }
+// } else if (z > x && z > y) {
+//   if (x > y) {
+//     console.log(z + ', ' + x + ', ' + y);
+//   } else {
+//     console.log(z + ', ' + y + ', ' + x);
+//   }
+// }
