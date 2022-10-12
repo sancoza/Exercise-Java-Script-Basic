@@ -120,3 +120,26 @@
 // }else if (b % 3 === 0 || b % 5 === 0) {
 //   console.log(b)
 // }
+
+// 4.Write a conditional statement to find the sign of product of three numbers. Display the
+// result in the console with the specified sign. Sample numbers: 3, -7, 2
+// Output: The sign is -
+
+// var a = 3;
+// var b = -7;
+// var c = 2;
+
+// if(a > 0 && b > 0 && c > 0) {
+//   console.log('this sign is +')
+// }else if (a < 0 && b < 0 && c < 0) {
+//   console.log('this sign is -');
+// }else if ( a > 0 && b < 0 && c < 0) {
+//   console.log('this sign is +')
+// } else if (a < 0 && b > 0 && c < 0) {
+//   console.log('this sign is +')
+// }else {
+//   console.log('this sign is -');
+// }
+
+// 5. Write a program to check if the variable is a number. If it’s a number, check if it is divisible by 2. If it is, print the result, if not, show “X” Sample numbers: 10 | 7 (check one at the time)
+// Output: 10 / 2 = 5 | X
