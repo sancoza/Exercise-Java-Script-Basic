@@ -370,30 +370,21 @@
 // console.log(difference(32))
 // console.log(difference(11))
 
-// Task 8. Write a JavaScript program to compute the sum of the two given integers. If the two
+//?????? Task 8. Write a JavaScript program to compute the sum of the two given integers. If the two
 // values are same, then returns triple their sum.
 // Sample Input: 12,5 Sample Input: 8,8
 // Output : 17 Output : 48
 
-// var a = 12.5;
-// var b = 8.8;
+var a = 12.5;
+var b = 8.8;
+var sum = a + b;
 
-// if(a === b) {
-//   console.log(3 * (a + b));
-// }else {
-//   console.log(a + b);
-// }
-// function sumTriple (x, y) {
-//   if (x == y) {
-//     return 3 * (x + y);
-//     } 
-//    else
-//    {
-//     return (x + y);
-//    }
-//  }
-// console.log(sumTriple(10, 20));
-// console.log(sumTriple(10, 10));
+if(a === b) {
+  console.log(3 * sum);
+}else {
+  console.log(sum);
+}
+
 
 
 // Task 9. Write a JavaScript program to check two given numbers and print “true” if one of
