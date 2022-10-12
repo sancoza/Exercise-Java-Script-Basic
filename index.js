@@ -72,4 +72,52 @@
 // }
 // console.log(result);
 
+// // Exercise:
+// 1. Write a program that compares two numbers and display the larger. Result should be
+// displayed in the console.
 
+// result='';
+// var one = 49;
+// var two = 55;
+
+// if(one > two) {
+//   result = 'one is larget then two';
+// }else {
+//   result =' two is larger then one';
+// }
+// console.log(result);
+
+// 2.Write a program to check if the number is divisible by 2. If it
+// is, print even, if not, print odd. 
+// Sample numbers: 3, 4, 9 (check one at the time)
+// Output: odd, even, odd
+// result='';
+// var a=3;
+// var b=4;
+// var c=9;
+
+// if ( a % 2 === 0) {
+//   result= a +  ' is divisible with 2 *even*';
+// }else if (b % 2 === 0) {
+//   result= b +  ' is divisible with 2 *even*';
+// }else if (c % 2 === 0) {
+//   result= a +  ' is divisible with 2 *even*';
+// }else {
+//    result= ' is not divisible with 2 *odd*';
+// }
+//  console.log(result);
+
+// 3.Write a program to check if the number is divisible by 3 and 5.
+// If it is, print that number.
+// Sample numbers: 15, 12 (check one at the time)
+// Output: 15
+
+// result ='';
+// var a =15;
+// var b = 12;
+
+// if (a % 3 ===0 || a % 5 ===0) {
+//   console.log(a);
+// }else if (b % 3 === 0 || b % 5 === 0) {
+//   console.log(b)
+// }
