@@ -154,7 +154,7 @@
 // var number = 10;
 // var result = number / 2;
 
-// if(10 % 2 === 0) {
+// if(number % 2 === 0) {
 //   console.log(result);
 // }else{
 //   console.log('X');
@@ -312,3 +312,27 @@
 
 // Task 4. Write a program to check if the variable is a number and if it’s a number, check if it is divisible by 2. If it is, print the result, if not, show “X”. Sample input: 10 Sample input: 7
 // Output: 10 / 2 = 5 Output: X
+
+// var number = 10;
+// var result = number / 2;
+
+
+// if(number % 2 === 0) {
+//   console.log(result);
+// }else{
+//   console.log('X');
+// }
+
+// console.log(typeof number);
+
+// Task 5. Write a program that compares two numbers and displays the larger. Display the result in
+// the console.
+
+// var num1= 2;
+// var num2 =5;
+
+// if(num1 > num2) {
+//   console.log('num1 is larger');
+// }else if (num2 > num1) {
+//   console.log('num2 is larger');
+// }
