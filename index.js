@@ -376,16 +376,19 @@
 // Sample Input: 11 Sample Input: 32
 // Output : 2 Output : 38
 
+// a=11;
+// b=32;
+// if(a <= 13) {
+//   console.log(13- a);
+// }else if( a >= 13) {
+//   console.log((a-13) *2);
+// }
+// if(b <= 13) {
+//   console.log(13- b);
+// }else if( b >= 13) {
+//   console.log((b-13) *2);
+// }
 
-// function difference(n)
-//  {
-//     if (n <= 13)
-//         return 13 - n;
-//     else
-//         return (n - 13) * 2;
-//  }
-// console.log(difference(32))
-// console.log(difference(11))
 
 //?????? Task 8. Write a JavaScript program to compute the sum of the two given integers. If the two
 // values are same, then returns triple their sum.
