@@ -336,3 +336,42 @@
 // }else if (num2 > num1) {
 //   console.log('num2 is larger');
 // }
+
+// Task 6. Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+// Formula : F = (9*C/5) + 32  where c = temperature in Celsius and f = temperature in Fahrenheit ]
+// Sample Input: 60°C
+// Output : 60°C is 140 °F
+
+
+  // var cTemp = celsius;
+  // var cToFahr = cTemp * 9 / 5 + 32;
+  // var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+  //   console.log(message);
+
+
+
+  // var fTemp = fahrenheit;
+  // var fToCel = (fTemp - 32) * 5 / 9;
+  // var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
+  //   console.log(message);
+
+
+//   Task 7. Write a JavaScript program to get the difference between a given number and 13, if
+// the number is greater than 13 return double difference between that number and 13.
+// Sample Input: 11 Sample Input: 32
+// Output : 2 Output : 38
+
+// Task 8. Write a JavaScript program to compute the sum of the two given integers. If the two
+// values are same, then returns triple their sum.
+// Sample Input: 12,5 Sample Input: 8,8
+// Output : 17 Output : 48
+// Task 9. Write a JavaScript program to check two given numbers and print “true” if one of
+// the number is 50 or if their sum is 50.
+// Sample Input: 5,54 Sample Input: 6,50 Sample Input: 40,10
+
+// Output : - Output : true Output : true
+
+// Task 10. Write a JavaScript program to check a given integer is within 20 of 100 or 400,
+// and print range in which number belongs.
+// Sample Input: 13 Sample Input: 34 Sample Input: 256
+// Output : - Output : 20 ⇔ 100 Output : 100 ⇔ 400
