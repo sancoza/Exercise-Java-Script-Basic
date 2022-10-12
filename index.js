@@ -214,3 +214,31 @@
 // result in the console with the specified sign.
 // Sample numbers: 3, -7, 2
 // Output: The sign is -
+
+// var x=3;
+// var y=-7;
+// var z=2;
+// if (x>0 && y>0 && z>0)
+// {
+//        alert("The sign is +");
+// }
+// else if (x<0 && y<0 && z<0)
+//         {
+//           console.log("The sign is -");
+//         }
+//         else if (x>0 && y<0 && z<0)
+//         {
+//           console.log("The sign is +");
+//         }
+//         else if (x<0 && y>0 && z<0)
+//         {
+//           console.log("The sign is +");
+//         }
+//         else
+//         {
+//           console.log("The sign is -");
+//         }
+
+// Task 2. Write a conditional statement to find the largest of five numbers. Display the result in the console.
+// Sample numbers: -5, -2, -6, 0, -1
+// Output: 0
