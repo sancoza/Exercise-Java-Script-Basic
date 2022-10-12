@@ -88,9 +88,9 @@
 // console.log(result);
 
 // 2.Write a program to check if the number is divisible by 2. If it
-// is, print even, if not, print odd. 
-// Sample numbers: 3, 4, 9 (check one at the time)
+// is, print even, if not, print odd. Sample numbers: 3, 4, 9 (check one at the time)
 // Output: odd, even, odd
+
 // result='';
 // var a=3;
 // var b=4;
@@ -108,8 +108,7 @@
 //  console.log(result);
 
 // 3.Write a program to check if the number is divisible by 3 and 5.
-// If it is, print that number.
-// Sample numbers: 15, 12 (check one at the time)
+// If it is, print that number. Sample numbers: 15, 12 (check one at the time)
 // Output: 15
 
 // result ='';
