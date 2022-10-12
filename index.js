@@ -386,10 +386,25 @@ if(a === b) {
 }
 
 
+// function sumTriple (x, y) {
+//   if (x == y) {
+//     return 3 * (x + y);
+//     } 
+//    else
+//    {
+//     return (x + y);
+//    }
+//  }
+// console.log(sumTriple(10, 20));
+// console.log(sumTriple(10, 10));
+
 
 // Task 9. Write a JavaScript program to check two given numbers and print “true” if one of
 // the number is 50 or if their sum is 50.
 // Sample Input: 5,54 Sample Input: 6,50 Sample Input: 40,10
+
+
+
 
 // function test50(x, y) 
 // {
