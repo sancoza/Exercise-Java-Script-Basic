@@ -342,18 +342,22 @@
 // Sample Input: 60°C
 // Output : 60°C is 140 °F
 
+// function cToF(celsius) 
+// {
+//   const cTemp = celsius;
+//   const cToFahr = cTemp * 9 / 5 + 32;
+//   const message = `${cTemp}\xB0C is ${cToFahr} \xB0F.`;
+//     console.log(message);
+// }
 
-  // var cTemp = celsius;
-  // var cToFahr = cTemp * 9 / 5 + 32;
-  // var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
-  //   console.log(message);
-
-
-
-  // var fTemp = fahrenheit;
-  // var fToCel = (fTemp - 32) * 5 / 9;
-  // var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
-  //   console.log(message);
+// function fToC(fahrenheit) 
+// {
+//   const fTemp = fahrenheit;
+//   const fToCel = (fTemp - 32) * 5 / 9;
+//   const message = `${fTemp}\xB0F is ${fToCel}\xB0C.`;
+//     console.log(message);
+// } 
+// message();
 
 
 //   Task 7. Write a JavaScript program to get the difference between a given number and 13, if
