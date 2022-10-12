@@ -360,14 +360,6 @@
 // Output : 2 Output : 38
 
 
-var a = 11;
-var b = 32;
-var min = 13 - a;
-var max = (a - 13)*2;
-
-
-
-
 // function difference(n)
 //  {
 //     if (n <= 13)
@@ -382,6 +374,15 @@ var max = (a - 13)*2;
 // values are same, then returns triple their sum.
 // Sample Input: 12,5 Sample Input: 8,8
 // Output : 17 Output : 48
+
+// var a = 12.5;
+// var b = 8.8;
+
+// if(a === b) {
+//   console.log(3 * (a + b));
+// }else {
+//   console.log(a + b);
+// }
 // function sumTriple (x, y) {
 //   if (x == y) {
 //     return 3 * (x + y);
