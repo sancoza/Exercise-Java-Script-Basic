@@ -242,3 +242,73 @@
 // Task 2. Write a conditional statement to find the largest of five numbers. Display the result in the console.
 // Sample numbers: -5, -2, -6, 0, -1
 // Output: 0
+
+// a=-5;
+// b=-2;
+// c=-6;
+// d= 0;
+// f=-1;
+// if (a>b && a>c && a>d && a>f)
+// {
+//     console.log(a);
+// }
+// else if (b>a && b>c && b>d && b>f)
+// {
+//     console.log(b);
+// }
+// else if (c>a && c>b && c>d && c>f)
+// {
+//     console.log(c);
+// }
+// else if (d>a && d>c && d>b && d>f)
+// {
+//     console.log(d);
+// }
+// else
+// {
+//     console.log(f);
+// }
+
+// Task 3. Write a conditional statement to print three numbers as sorted number list.
+// Sample numbers : 0, -1, 4
+// Output : 4, 0, -1
+
+// var x= 4;
+// var y=0;
+// var z= -1;
+// if (x>y && x>z)
+// {
+//         if (y>z)
+//         {
+//             console.log(x + ", " + y + ", " +z);
+//         }
+//         else
+//         {
+//             console.log(x + ", " + z + ", " +y);
+//         }
+// }
+// else if (y>x && y >z)
+// {
+//         if (x>z)
+//         {
+//              console.log(y + ", " + x + ", " +z);
+//         }
+//         else
+//         {
+//              console.log(y + ", " + z + ", " +x);
+//         }
+// }
+// else if (z>x && z>y)
+// {
+//         if (x>y)
+//         {
+//             console.log(z + ", " + x + ", " +y);
+//         }
+//         else
+//         {
+//             console.log(z + ", " + y + ", " +x);
+//         }
+// }  
+
+// Task 4. Write a program to check if the variable is a number and if it’s a number, check if it is divisible by 2. If it is, print the result, if not, show “X”. Sample input: 10 Sample input: 7
+// Output: 10 / 2 = 5 Output: X
